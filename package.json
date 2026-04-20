@@ -1,0 +1,31 @@
+{
+  "name": "bap6174",
+  "version": "0.1.0",
+  "description": "BAP-6174 Non-Fungible Agent Standard — canonical interfaces for BNB Smart Chain",
+  "keywords": [
+    "bap-6174",
+    "nfa",
+    "non-fungible-agent",
+    "bnb-chain",
+    "erc-721",
+    "agent-protocol",
+    "solidity"
+  ],
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "contracts/interfaces/**/*.sol",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "compile": "hardhat compile",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "hardhat": "^2.22.0",
+    "typescript": "^5.4.0"
+  }
+}
